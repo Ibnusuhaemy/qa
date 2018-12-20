@@ -71,6 +71,8 @@
     }
 }
 
+
+
 /* Header Banner */
 .full-section.search-section{
     background-image: url(../images/banner-vote.png);
@@ -110,7 +112,23 @@
     margin-right: -5px;
 }
 
+/* Listing */
+
+
+.listing-grid {
+    margin-bottom: 10px !important;
+}
+
 /* Footer */
 .footer-area{
-    background-color: rgb(3, 46, 94);
+    /* background-color: rgb(3, 46, 94); */
+}
+
+/* Utilities */
+
+.padding-bottom-80 {
+    padding: 0 !important;   
+}
+.margin-top-medium {
+    margin-top: 70px;
 }
