@@ -1,0 +1,116 @@
+/* Menu */
+.top-bar ul.top-nav.nav-right > li:first-child,
+.top-bar ul.top-nav.nav-right > li{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.top-bar ul.top-nav.nav-right > li{
+    margin-right: 5px;
+    padding: 0 20px;
+}
+.top-bar ul.top-nav.nav-right > li:hover{
+    background-color: rgba(255, 255, 255, 0.125);
+}
+.top-bar ul.top-nav.nav-right > li.dropdown{
+    border: none;
+    margin-right: 0;
+    padding: 0 15px;
+}
+.top-bar ul.top-nav.nav-right > li.dropdown:hover{
+    background-color: transparent;
+}
+.nav-index .nav-left{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-index .nav-search{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-index .nav-search .icon-addon{
+    margin-bottom: auto;
+}
+.nav-index .nav-search .icon-addon label{
+    margin-bottom: 0;
+    padding: 7px 0;
+}
+.nav-index .nav-search .icon-addon .form-control{
+    height: auto;
+    border: none;
+}
+.nav-account .top-nav.nav-right{
+    padding: 13px 0;
+}
+@media (max-width: 1279px) and (min-width: 768px){
+    .navbar-form {
+        width: auto;
+        margin-top: 8px;
+        margin-left: auto;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .nav-index .nav-search{
+        padding: 0;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .nav-account .top-nav.nav-right{
+        padding: 9px 0;
+    }
+}
+@media (max-width: 767px) and (min-width: 320px){
+    .navbar-form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav-account ul.top-nav.nav-right > li{
+        padding: 5px 10px;
+    }
+    .nav-account ul.top-nav.nav-right > li:first-child{
+        padding: 5px 10px;
+    }
+}
+
+/* Header Banner */
+.full-section.search-section{
+    background-image: url(../images/banner-vote.png);
+    background-color: transparent;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: scroll;
+    padding: 60px 0;
+    min-height: inherit;
+}
+.home-section::before{
+    background-color: transparent;
+}
+@media (max-width: 991px) and (min-width: 320px){
+    .home-section::before{
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+
+.search-section .search-area{
+    padding: 0;
+}
+
+/* Side Bar */
+.side-bar .widget .media,
+.side-bar .widget p{
+    margin-bottom: 0;
+}
+
+/* Question Tabs */
+.question-tabs .panel-tabs{
+    text-align: center;
+}
+.question-tabs .panel-tabs > li{
+    display: inline-block;
+    float: none;
+    margin-right: -5px;
+}
+
+/* Footer */
+.footer-area{
+    background-color: rgb(3, 46, 94);
+}
