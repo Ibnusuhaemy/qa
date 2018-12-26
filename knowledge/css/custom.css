@@ -125,10 +125,17 @@
 }
 
 /* Utilities */
-
 .padding-bottom-80 {
     padding: 0 !important;   
 }
 .margin-top-medium {
     margin-top: 70px;
 }
+
+/* Testimonial */
+@media screen and (max-width: 991px){
+    .side-bar .widget.testi-sidebar{
+        margin-bottom: 40px;
+    }
+}
+
